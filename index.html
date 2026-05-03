@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
+    <link rel="icon" type="image/png" href="/static/favicon.png">
+    <link rel="apple-touch-icon" href="/static/favicon.png">
+    <title>PhraseChain</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
 
@@ -630,8 +634,10 @@
     </style>
 </head>
 
+
 <body>
     
+    <script src="script.js"></script>
     <div id="home-screen">
         <div id="home-top">
             <img src="/static/PhraseChainIcon.svg" id="home-logo">
@@ -737,6 +743,11 @@
         }, 250);
     }
 
+    function resetSave() {
+    localStorage.removeItem("phraseChainSave");
+    location.reload();
+    }
+
     function updateCountdown() {
         const now = new Date();
 
@@ -763,21 +774,46 @@
     updateCountdown();
 
     async function loadPuzzle() {
-        const res = await fetch("/api/puzzle");
-        puzzle = await res.json();
+        const res = await fetch("puzzles.json");
+        const puzzles = await res.json();
+        const today = getTodayDateISO();
+
+        puzzle = puzzles.find(p => p.date === today);
+
+        // fallback (for testing)
+        if (!puzzle) {
+            puzzle = puzzles[0];
+        }
 
         renderStartWord();
         renderChain();
 
-        // trigger bounce AFTER render
         setTimeout(() => {
-        document.getElementById("start-row").classList.add("start-pop");
+            document.getElementById("start-row").classList.add("start-pop");
         }, 50);
 
-        // ✅ focus first box automatically
-        const firstInputs = getInputs(0);
-        firstInputs[0].disabled = false;
-        firstInputs[0].focus();
+        // ✅ TRY LOAD SAVE
+        const loaded = loadProgress();
+
+        if (!loaded) {
+            const firstInputs = getInputs(0);
+            firstInputs[0].disabled = false;
+            firstInputs[0].focus();
+        }
+    }
+
+    function getTodayDateISO() {
+        const now = new Date();
+
+        const pst = new Date(
+            now.toLocaleString("en-US", { timeZone: "America/Los_Angeles" })
+        );
+
+        const year = pst.getFullYear();
+        const month = String(pst.getMonth() + 1).padStart(2, "0");
+        const day = String(pst.getDate()).padStart(2, "0");
+
+        return `${year}-${month}-${day}`;
     }
 
     function exitGame() {
@@ -945,6 +981,7 @@
     currentLetterIndex++;
 
     checkWord();
+    saveProgress();
         }
 
     // BACKSPACE
@@ -966,6 +1003,7 @@
             if (inputs[i].value !== "") {
             inputs[i].value = "";
             currentLetterIndex = i;
+            saveProgress();
             return;
             }
 
@@ -1087,7 +1125,9 @@
     hintBtn.textContent = "1ST HINT";
 
         unlockNextWord();
+        saveProgress();
     }, 350);
+        
     }
 
     function getMedal(score) {
@@ -1197,6 +1237,7 @@
         }
 
         hintLevel++;
+        saveProgress();
         }
     window.addEventListener("resize", scaleChainIfNeeded);
     document.addEventListener("keydown", handleKeyPress);
@@ -1256,6 +1297,172 @@
     function closePopup() {
     document.getElementById("end-popup").classList.add("hidden");
     }
+
+    function saveProgress() {
+        const data = {
+            date: getTodayDate(),
+            currentWordIndex,
+            currentLetterIndex,
+            lockedLetters,
+            totalScore,
+            hintLevel,
+            wordInputs: []
+        };
+
+        // save all letters
+        puzzle.chain.forEach((_, wIndex) => {
+            const inputs = getInputs(wIndex);
+            data.wordInputs[wIndex] = Array.from(inputs).map(i => i.value);
+        });
+
+        localStorage.setItem("phraseChainSave", JSON.stringify(data));
+    }
+
+    function loadProgress() {
+        const saved = localStorage.getItem("phraseChainSave");
+        if (!saved) return false;
+
+        const data = JSON.parse(saved);
+
+        // ❌ different day → ignore
+        if (data.date !== getTodayDate()) {
+            localStorage.removeItem("phraseChainSave");
+            return false;
+        }
+        lockedLetters = data.lockedLetters || {};
+
+        // restore state
+        currentWordIndex = data.currentWordIndex;
+
+        
+        totalScore = data.totalScore || 0;
+        hintLevel = data.hintLevel || 0;
+
+        data.wordInputs.forEach((word, wIndex) => {
+            const inputs = getInputs(wIndex);
+            if (!inputs) return;
+
+            // ✅ Completed words → restore normally
+            if (wIndex < currentWordIndex && word) {
+                word.forEach((letter, i) => {
+                    inputs[i].value = letter || "";
+                });
+            }
+
+            // 🚫 Active word → CLEAR IT COMPLETELY
+            else if (wIndex === currentWordIndex) {
+                inputs.forEach(input => input.value = "");
+            }
+        });
+
+        // 🔥 RE-APPLY LOCKED LETTERS (from hints)
+        Object.keys(lockedLetters).forEach(key => {
+            const [wIndex, lIndex] = key.split("-").map(Number);
+
+            const inputs = getInputs(wIndex);
+            if (!inputs) return;
+
+            const input = inputs[lIndex];
+
+            input.classList.add("locked-letter");
+            input.disabled = false; // still editable row, just locked letter
+        });
+
+        // 🔥 ENSURE FIRST HINT LETTER IS CORRECT
+        if (hintLevel >= 1 && currentWordIndex < puzzle.chain.length) {
+            const inputs = getInputs(currentWordIndex);
+            const letter = puzzle.hints[currentWordIndex][0].toUpperCase();
+
+            inputs[0].value = letter;
+            inputs[0].classList.add("locked-letter");
+
+            lockedLetters[`${currentWordIndex}-0`] = true;
+        }
+
+        // restore completed/active states
+        const rows = document.querySelectorAll("#chain .word-row");
+
+        rows.forEach((row, i) => {
+            row.classList.remove("active");
+
+            if (i < currentWordIndex) {
+                row.classList.add("completed");
+                getInputs(i).forEach(input => input.disabled = true);
+            }
+        });
+
+        if (currentWordIndex < rows.length) {
+            rows[currentWordIndex].classList.add("active");
+        }
+
+        document.getElementById("score-value").textContent = `${totalScore} PTS`;
+
+        const hintBtn = document.getElementById("hint-btn");
+        const hintBox = document.getElementById("hint-display");
+
+        // reset UI first
+        hintBtn.textContent = "1ST HINT";
+        clearHintBox();
+
+        // restore based on hintLevel
+        if (hintLevel === 1) {
+            hintBtn.textContent = "2ND HINT";
+        }
+        else if (hintLevel === 2) {
+            hintBtn.textContent = "REVEAL";
+
+            const clue = puzzle.hints[currentWordIndex][1];
+
+            hintBox.innerHTML = `
+                <div class="hint-body">${clue}</div>
+            `;
+
+            // ⛔ DON'T show immediately
+            hintBox.classList.remove("show");
+
+            // ✅ wait until UI fades in, then show
+            const totalDelay = 1000 + (puzzle.chain.length * 120) + 200;
+
+            setTimeout(() => {
+                hintBox.classList.add("show");
+            }, totalDelay + 200); // slight buffer after UI
+        }
+
+        // 🎯 FIX CURRENT LETTER POSITION + FOCUS
+        if (currentWordIndex < puzzle.chain.length) {
+            const inputs = getInputs(currentWordIndex);
+
+            // skip locked letters
+            while (
+                currentLetterIndex < inputs.length &&
+                lockedLetters[`${currentWordIndex}-${currentLetterIndex}`]
+            ) {
+                currentLetterIndex++;
+            }
+
+            // clamp safety
+            if (currentLetterIndex >= inputs.length) {
+                currentLetterIndex = inputs.length - 1;
+            }
+
+            // focus correct box
+            inputs[currentLetterIndex].focus();
+        }
+
+        // 🏁 GAME COMPLETE STATE
+        if (currentWordIndex >= puzzle.chain.length) {
+            const hintBtn = document.getElementById("hint-btn");
+
+            hintBtn.textContent = "RESULTS";
+            hintBtn.onclick = showEndPopup;
+
+            // optional: auto-show results on reload
+            // showEndPopup();
+        }
+
+        return true;
+    }
+
 
     function copyResults() {
         const date = getTodayDate();
