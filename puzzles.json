@@ -1,0 +1,514 @@
+[
+  {
+    "date": "Tutorial",
+    "start": "Quick",
+    "chain": ["Sand", "Dune", "Buggy", "Tutorial", "Tutorial", "Turtorial", "Tutorial"],
+    "hints": [
+      ["S", "You might sink in this"],
+      ["D", "Tutorial"],
+      ["B", "Tutorial"],
+      ["T", "Tutorial"],
+      ["T", "Tutorial"],
+      ["T", "Tutorial"],
+      ["T", "Tutorial"]
+    ]
+  },
+
+  {
+  "date": "2026-05-02",
+  "start": "Fire",
+  "chain": ["Truck", "Stop", "Sign", "Language", "Barrier", "Reef", "Shark"],
+  "hints": [
+    ["T", "Emergency vehicle"],
+    ["S", "Rest area for drivers"],
+    ["S", "Red octagon"],
+    ["L", "Communication"],
+    ["B", "Miscommunication"],
+    ["R", "In the Coral Sea"],
+    ["S", "Caribbean predator"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Cotton",
+  "chain": ["Candy", "Cane", "Sugar", "Rush", "Hour", "Hand", "Grenade"],
+  "hints": [
+    ["C", "Fluffy edible cloud"],
+    ["C", "Striped holiday candy"],
+    ["S", "Sweet crystalline ingredient"],
+    ["R", "Burst of energy"],
+    ["H", "Heavy traffic"],
+    ["H", "Part of an analog clock"],
+    ["G", "Esplosive"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Catch Your",
+  "chain": ["Breath", "Mint", "Green", "Tea", "Time", "Zone", "Defense"],
+  "hints": [
+    ["B", "Pause to recover"],
+    ["M", "For bad breath"],
+    ["G", "Color of mint"],
+    ["T", "Matcha is a type of this"],
+    ["T", "Traditional British social custom"],
+    ["Z", "Region with the same clock"],
+    ["D", "An American football scheme"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Cold",
+  "chain": ["Case", "Study", "Guide", "Line", "Cook", "Book", "Shelf"],
+  "hints": [
+    ["C", "Unsolved investigation"],
+    ["S", "Analyze for learning"],
+    ["G", "Helps you prepare for a test"],
+    ["L", "Rule to follow"],
+    ["C", "Works in a kitchen"],
+    ["B", "Collection of recipes"],
+    ["S", "Holds books"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Bitter",
+  "chain": ["Sweet", "Spot", "Light", "House", "Party", "Animal", "Cracker"],
+  "hints": [
+    ["S", "A blend of emotions"],
+    ["S", "Goldilocks zone"],
+    ["L", "Center stage"],
+    ["H", "Overlooks the seas"],
+    ["P", "Celebration with friends"],
+    ["A", "Life of the party"],
+    ["C", "Snack with fun shapes"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Mothers",
+  "chain": ["Day", "Drinking", "Water", "Bottle", "Neck", "Tie", "Dye"],
+  "hints": [
+    ["D", "Holiday"],
+    ["D", "A song by Little Big Town"],
+    ["W", "Replenish 70% of yourself"],
+    ["B", "Storage for fluids"],
+    ["N", "A point of congestion"],
+    ["T", "Formal accessory"],
+    ["D", "Coloring fabric"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Battle",
+  "chain": ["Cry", "Baby", "Blue", "Moon", "Light", "Saber", "Tooth"],
+  "hints": [
+    ["C", "Shout in combat"],
+    ["B", "A name you might hear a bully use"],
+    ["B", "A light cool color"],
+    ["M", "Rare lunar event"],
+    ["L", "Reflection of the sun"],
+    ["S", "Luke Skywalker"],
+    ["T", "Tiger"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Finish",
+  "chain": ["Line", "Drive", "Way", "Point", "Break", "Down", "Under"],
+  "hints": [
+    ["L", "End of the track"],
+    ["D", "Golfing term"],
+    ["W", "Where you might park a car"],
+    ["P", "Saved geographic coordinate"],
+    ["B", "Surfing movie starring Patrick Swayze & Keanu Reeves"],
+    ["D", "Stop functioning"],
+    ["U", "Australia's nickname"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Picture",
+  "chain": ["Perfect", "Pitch", "Black", "Jack", "Pot", "Belly", "Flop"],
+  "hints": [
+    ["P", "Ready for the camera"],
+    ["P", "Ability to identify a specific musical note"],
+    ["B", "Complete darkness"],
+    ["J", "Casino game"],
+    ["P", "Big gambling win"],
+    ["B", "Large abomen"],
+    ["F", "Bad dive landing"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Heavy",
+  "chain": ["Rain", "Drop", "Off", "Season", "Ticket", "Master", "Plan"],
+  "hints": [
+    ["R", "Intense weather"],
+    ["D", "A single falling bead of water"],
+    ["O", "To transport and leave someone"],
+    ["S", "Break for athletes"],
+    ["T", "Pass for entry all season"],
+    ["M", "App for buyign tickets"],
+    ["P", "Ultimate strategy"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Snow",
+  "chain": ["Ball", "Game", "Time", "Travel", "Guide", "Line", "Dance"],
+  "hints": [
+    ["B", "packed sphere of snow"],
+    ["G", "Take me out to this"],
+    ["T", "Start of play"],
+    ["T", "Moving across eras"],
+    ["G", "Person who leads the tour"],
+    ["L", "Rule-of-thumb"],
+    ["D", "Choreographed group movement"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "True",
+  "chain": ["North", "Star", "Fish", "Tank", "Top", "Secret", "Agent"],
+  "hints": [
+    ["N", "Direction on a compass"],
+    ["S", "Polaris"],
+    ["F", "5-limbed animal"],
+    ["T", "Where a pet might live"],
+    ["T", "Summer clothing"],
+    ["S", "Kept hidden"],
+    ["A", "Spy working undercover"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Paper",
+  "chain": ["Clip", "Board", "Game", "Night", "Club", "House", "Arrest"],
+  "hints": [
+    ["C", "Common office supply"],
+    ["B", "Flat surface for papers"],
+    ["G", "Monopoly"],
+    ["N", "Event after dinner for gamers"],
+    ["C", "Late-night venue"],
+    ["H", "Mickey's hangout spot"],
+    ["A", "Ankle monitor"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Bow",
+  "chain": ["Tie", "Breaker", "Box", "Office", "Space", "Ship", "Wreck"],
+  "hints": [
+    ["T", "Formal accessory"],
+    ["B", "Deciding factor in a tie"],
+    ["B", "Electrical panel"],
+    ["O", "Gross income generated from a movie"],
+    ["S", "Area where people work"],
+    ["S", "NASA"],
+    ["W", "Sunken treasure"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Human",
+  "chain": ["Right", "Brain", "Storm", "Cloud", "Nine", "Lives", "On"],
+  "hints": [
+    ["R", "In the Declaration of Independence"],
+    ["B", "Creative side"],
+    ["S", "Thinking session"],
+    ["C", "Visible dark mass in the sky"],
+    ["N", "State of extreme happiness"],
+    ["L", "Number of chances a cat is said to have"],
+    ["O", "Continue or persist"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Foot",
+  "chain": ["Ball", "Park", "Bench", "Press", "Release", "Date", "Night"],
+  "hints": [
+    ["B", "NFL"],
+    ["P", "Where baseball is played"],
+    ["B", "Seat for people watching"],
+    ["P", "Chest exercise"],
+    ["R", "Make something public"],
+    ["D", "Day something becomes available"],
+    ["N", "Evening outing with a significant other"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Jail",
+  "chain": ["Cell", "Phone", "Home", "Work", "Out", "Side", "Effect"],
+  "hints": [
+    ["C", "Prisoner's room"],
+    ["P", "Mobile device"],
+    ["H", "E.T."],
+    ["W", "My dog ate this"],
+    ["O", "Exercise session"],
+    ["S", "Not under a roof"],
+    ["E", "Unitended result"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Hand",
+  "chain": ["Shake", "Down", "Town", "Hall", "Pass", "Word", "Search"],
+  "hints": [
+    ["S", "Form of greeting"],
+    ["D", "Rob or extort someone"],
+    ["T", "Main area of a city"],
+    ["H", "Public meeting building"],
+    ["P", "Use this to get out of the classroom"],
+    ["W", "Secret code"],
+    ["S", "Grid of letters"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Bungee",
+  "chain": ["Jump", "Scare", "Crow", "Bar", "Code", "Red", "Alert"],
+  "hints": [
+    ["J", "Safely go over the side of a bridge"],
+    ["S", "In a horror movie"],
+    ["C", "Batman villan"],
+    ["B", "Steel lever"],
+    ["C", "Self checkout"],
+    ["R", "Code for fire"],
+    ["A", "Warning of danger"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Lock",
+  "chain": ["Pick", "Pocket", "Book", "Store", "Front", "Page", "Turn"],
+  "hints": [
+    ["P", "Locksmith's tool"],
+    ["P", "A name of a thief"],
+    ["B", "Take notes on the go"],
+    ["S", "Barnes & Noble"],
+    ["F", "Part of store facing the street"],
+    ["P", "Where the newspaper headlines are"],
+    ["T", "Flip something"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Cough",
+  "chain": ["Drop", "Dead", "Sea", "Shell", "Fish", "Stick", "Shift"],
+  "hints": [
+    ["D", "Sore throat relief"],
+    ["D", "Gorgeous"],
+    ["S", "Saltiest water"],
+    ["S", "She sells on the sea shore"],
+    ["F", "Crustacean"],
+    ["S", "Often dipped in tartar sauce"],
+    ["S", "Change gears"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Red",
+  "chain": ["Rose", "Gold", "Mine", "Craft", "Beer", "Garden", "Hose"],
+  "hints": [
+    ["R", "Classic romantic symbol"],
+    ["G", "Pinkish metal"],
+    ["M", "Prospector might work here"],
+    ["C", "Best selling video game"],
+    ["B", "Made by independent brewers"],
+    ["G", "Place for outdoor drinking"],
+    ["H", "Flexible tube"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Rain",
+  "chain": ["Check", "Point", "Break", "Fast", "Food", "Truck", "Driver"],
+  "hints": [
+    ["C", "Plans change"],
+    ["P", "Designated place to stop"],
+    ["B", "Surfing term"],
+    ["F", "Morning routine"],
+    ["F", "McDonalds"],
+    ["T", "Street food"],
+    ["D", "Vehicle operator"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Wedding",
+  "chain": ["Dress", "Code", "Red", "Hot", "Dog", "House", "Warming"],
+  "hints": [
+    ["D", "First look"],
+    ["C", "Business casual"],
+    ["R", "Emergency alert"],
+    ["H", "Cinnamon candy"],
+    ["D", "Served in a bun"],
+    ["H", "Dwelling place"],
+    ["W", "Move in party"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Saturday Night",
+  "chain": ["Live", "Music", "Video", "Camera", "Shy", "Guy", "Fieri"],
+  "hints": [
+    ["L", "Sketch comedy"],
+    ["M", "Concert"],
+    ["V", "Vevo"],
+    ["C", "Device to capture film"],
+    ["S", "Timid person"],
+    ["G", "MarioKart Character"],
+    ["F", "Celebrity chef"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "May",
+  "chain": ["Flower", "Girl", "Power", "Puff", "Ball", "Point", "Guard"],
+  "hints": [
+    ["F", "Pilgrim vessel"],
+    ["G", "Wedding role"],
+    ["P", "Slogan for confidence, and independence"],
+    ["P", "Blossom, Bubbles, and Buttercup"],
+    ["B", "Round fungi that release spores"],
+    ["P", "Type of pen"],
+    ["G", "Magic Johnson"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Al",
+  "chain": ["Fine", "Line", "Cook", "Book", "Worm", "Hole", "Punch"],
+  "hints": [
+    ["F", "Italian musical direction for the end"],
+    ["L", "Goes between love and hate"],
+    ["C", "Resturant staff"],
+    ["B", "The Joy of Cooking"],
+    ["W", "Someone who loves reading"],
+    ["H", "Einstein-Rosen bridge"],
+    ["P", "3-ring binder"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Old",
+  "chain": ["Navy", "Blue", "Print", "Shop", "Lift", "Off", "White"],
+  "hints": [
+    ["N", "Clothing brand"],
+    ["B", "Dark color"],
+    ["P", "Technical drawing"],
+    ["S", "Place where printing is done"],
+    ["L", "Theif"],
+    ["O", "Cape Canaveral"],
+    ["W", "High-end fashion label"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Tidal",
+  "chain": ["Wave", "Pool", "Table", "Tennis", "Court", "Case", "Closed"],
+  "hints": [
+    ["W", "Ocean surge"],
+    ["P", "Swim in artificial waves"],
+    ["T", "Green felt"],
+    ["T", "Ping Pong"],
+    ["C", "Tennis surface"],
+    ["C", "Formal legal dispute"],
+    ["C", "Finalized"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Fire",
+  "chain": ["Fly", "Trap", "Door", "Bell", "Boy", "Friend", "Zone"],
+  "hints": [
+    ["F", "Owl City"],
+    ["T", "Uses bait, scent, or sticky surfaces"],
+    ["D", "Hidden opening"],
+    ["B", "Ring"],
+    ["B", "Carries your luggage"],
+    ["F", "Romantic partner"],
+    ["Z", "Just friends"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Chubby",
+  "chain": ["Bunny", "Hop", "Scotch", "Tape", "Measure", "Up", "Beat"],
+  "hints": [
+    ["B", "How many marshmallows?"],
+    ["H", "Bike trick"],
+    ["S", "Playground jumping game"],
+    ["T", "Adhesive"],
+    ["M", "Found in a toolbelt"],
+    ["U", "Reach the standard"],
+    ["B", "Cheerful and positive"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Side",
+  "chain": ["Kick", "Flip", "Phone", "Book", "Shelf", "Life", "Line"],
+  "hints": [
+    ["K", "Robin is this to Batman"],
+    ["F", "Skateboard trick"],
+    ["P", "Has a keypad"],
+    ["B", "Yellow pages"],
+    ["S", "Book storage"],
+    ["L", "Best by"],
+    ["L", "Essential source of support"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Front",
+  "chain": ["End", "Game", "Over", "Time", "Bomb", "Shell", "Shock"],
+  "hints": [
+    ["E", "User interface"],
+    ["G", "Avengers movie"],
+    ["O", "Insert coin to play again"],
+    ["T", "Extra time in sports"],
+    ["B", "Timed detonation"],
+    ["S", "Idiom for shocking news"],
+    ["S", "PTSD"]
+  ]
+}
+
+]
+
+
