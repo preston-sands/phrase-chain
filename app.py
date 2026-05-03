@@ -1,6 +1,7 @@
 from flask import Flask, render_template, jsonify
 import json
 from datetime import datetime
+import pytz
 
 app = Flask(__name__)
 
@@ -16,7 +17,8 @@ def index():
 def get_puzzle():
     puzzles = load_puzzles()
 
-    today = datetime.now().strftime("%Y-%m-%d")
+    tz = pytz.timezone("America/Los_Angeles")
+    today = datetime.now(tz).strftime("%Y-%m-%d")
 
     for puzzle in puzzles:
         if puzzle["date"] == today:
