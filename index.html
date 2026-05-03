@@ -100,7 +100,7 @@
         }
 
         #countdown {
-            margin-top: 0.5dvh;
+            margin-top: -0.5dvh;
             font-size: 3dvh;
             font-weight: bold;
         }
@@ -605,6 +605,7 @@
         align-items: center;
         justify-content: center;
         overflow: hidden;
+        isolation: isolate;
     }
 
     #tutorial-image {
@@ -614,7 +615,7 @@
 
     object-fit: contain;
     display: block;
-    overflow: hidden;
+    transform: translateZ(0);
     }
 
     #tutorial-close {
@@ -624,6 +625,7 @@
 
         font-size: 2dvh;
         cursor: pointer;
+        z-index: 6000;
     }
 
     #chain-wrapper {
