@@ -15,7 +15,7 @@
   },
 
   {
-  "date": "2026-05-03",
+  "date": "2026-05-04",
   "start": "Fire",
   "chain": ["Truck", "Stop", "Sign", "Language", "Barrier", "Reef", "Shark"],
   "hints": [
@@ -30,7 +30,7 @@
 },
 
 {
-  "date": "2026-05-04",
+  "date": "2026-05-05",
   "start": "Cotton",
   "chain": ["Candy", "Cane", "Sugar", "Rush", "Hour", "Hand", "Grenade"],
   "hints": [
@@ -45,7 +45,7 @@
 },
 
 {
-  "date": "2026-05-05",
+  "date": "2026-05-06",
   "start": "Catch Your",
   "chain": ["Breath", "Mint", "Green", "Tea", "Time", "Zone", "Defense"],
   "hints": [
@@ -56,21 +56,6 @@
     ["T", "Traditional British social custom"],
     ["Z", "Region with the same clock"],
     ["D", "An American football scheme"]
-  ]
-},
-
-{
-  "date": "2026-05-06",
-  "start": "Cold",
-  "chain": ["Case", "Study", "Guide", "Line", "Cook", "Book", "Shelf"],
-  "hints": [
-    ["C", "Unsolved investigation"],
-    ["S", "Analyze for learning"],
-    ["G", "Helps you prepare for a test"],
-    ["L", "Rule to follow"],
-    ["C", "Works in a kitchen"],
-    ["B", "Collection of recipes"],
-    ["S", "Holds books"]
   ]
 },
 
@@ -521,6 +506,21 @@
     ["B", "Timed detonation"],
     ["S", "Idiom for shocking news"],
     ["S", "PTSD"]
+  ]
+},
+
+{
+  "date": "2026-06-06",
+  "start": "Cold",
+  "chain": ["Case", "Study", "Guide", "Line", "Cook", "Book", "Shelf"],
+  "hints": [
+    ["C", "Unsolved investigation"],
+    ["S", "Analyze for learning"],
+    ["G", "Helps you prepare for a test"],
+    ["L", "Rule to follow"],
+    ["C", "Works in a kitchen"],
+    ["B", "Collection of recipes"],
+    ["S", "Holds books"]
   ]
 }
 
