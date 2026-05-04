@@ -15,6 +15,22 @@
   },
 
   {
+  "date": "2026-05-03",
+  "start": "Test",
+  "chain": ["Test", "Test", "Test", "Test", "Test", "Test", "Test"],
+  "hints": [
+    ["T", "Test"],
+    ["T", "Test"],
+    ["T", "Test"],
+    ["T", "Test"],
+    ["T", "Test"],
+    ["T", "Test"],
+    ["T", "Test"]
+  ]
+},
+
+
+  {
   "date": "2026-05-04",
   "start": "Fire",
   "chain": ["Truck", "Stop", "Sign", "Language", "Barrier", "Reef", "Shark"],

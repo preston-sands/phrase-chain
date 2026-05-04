@@ -780,7 +780,8 @@
     async function loadPuzzle() {
         const res = await fetch("puzzles.json");
         const puzzles = await res.json();
-        const today = getTodayDateISO();
+        const today = getTodayPST();
+        console.log("Today PST:", today);
 
         puzzle = puzzles.find(p => p.date === today);
 
@@ -804,20 +805,6 @@
             firstInputs[0].disabled = false;
             firstInputs[0].focus();
         }
-    }
-
-    function getTodayDateISO() {
-        const now = new Date();
-
-        const pst = new Date(
-            now.toLocaleString("en-US", { timeZone: "America/Los_Angeles" })
-        );
-
-        const year = pst.getFullYear();
-        const month = String(pst.getMonth() + 1).padStart(2, "0");
-        const day = String(pst.getDate()).padStart(2, "0");
-
-        return `${year}-${month}-${day}`;
     }
 
     function exitGame() {
@@ -1258,10 +1245,20 @@
     });
 
     function getTodayDate() {
-    const d = new Date();
-    const mm = String(d.getMonth() + 1).padStart(2, "0");
-    const dd = String(d.getDate()).padStart(2, "0");
-    const yyyy = d.getFullYear();
+    const now = getNow();
+    logPSTTime(now, "getTodayDate");
+
+    const parts = new Intl.DateTimeFormat("en-US", {
+        timeZone: "America/Los_Angeles",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit"
+    }).formatToParts(now);
+
+    const mm = parts.find(p => p.type === "month").value;
+    const dd = parts.find(p => p.type === "day").value;
+    const yyyy = parts.find(p => p.type === "year").value;
+
     return `${mm}-${dd}-${yyyy}`;
     }
 

@@ -1,5 +1,22 @@
+let FAKE_TIME = null;
+
+function getNow() {
+  return FAKE_TIME ? new Date(FAKE_TIME) : new Date();
+}
+
+function logPSTTime(now, label = "TIME CHECK") {
+  const pstString = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/Los_Angeles",
+    dateStyle: "full",
+    timeStyle: "long"
+  }).format(now);
+
+  console.log(`🕒 ${label}:`, pstString);
+}
+
 function getTodayPST() {
-  const now = new Date();
+  const now = getNow();
+  logPSTTime(now, "getTodayPST");
 
   return new Intl.DateTimeFormat("en-CA", {
     timeZone: "America/Los_Angeles",
@@ -10,20 +27,6 @@ function getTodayPST() {
 }
 
 const today = getTodayPST();
-
-function loadTodayPuzzle() {
-  fetch("puzzles.json")
-    .then(res => res.json())
-    .then(puzzles => {
-      const today = getTodayPST();
-
-      const puzzle =
-        puzzles.find(p => p.date === today) ||
-
-      loadPuzzle(puzzle); // your existing function
-      scaleChainIfNeeded();
-    });
-}
 
 document.addEventListener("DOMContentLoaded", () => {
   loadTodayPuzzle();
