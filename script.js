@@ -29,5 +29,5 @@ function getTodayPST() {
 const today = getTodayPST();
 
 document.addEventListener("DOMContentLoaded", () => {
-  loadTodayPuzzle();
+  loadPuzzle();
 });

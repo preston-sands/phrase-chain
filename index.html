@@ -782,6 +782,7 @@
         const puzzles = await res.json();
         const today = getTodayPST();
         console.log("Today PST:", today);
+        
 
         puzzle = puzzles.find(p => p.date === today);
 
