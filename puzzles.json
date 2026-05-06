@@ -30,7 +30,7 @@
 },
 
 
-  {
+{
   "date": "2026-05-04",
   "start": "Fire",
   "chain": ["Truck", "Stop", "Sign", "Language", "Barrier", "Reef", "Shark"],
@@ -92,16 +92,16 @@
 
 {
   "date": "2026-05-08",
-  "start": "Graham",
-  "chain": ["Cracker", "Jack", "Pot", "Roast", "Beef", "Cake", "Batter"],
+  "start": "Chick",
+  "chain": ["Pea", "Pod", "Cast", "Iron", "Man", "Cave", "Bat"],
   "hints": [
-    ["C", "Pairs well with a marshmallow and chocolate"],
-    ["J", "Caramel popcorn and peanuts"],
-    ["P", "Lottery"],
-    ["R", "Slow cooked meat"],
-    ["B", "Find this in the deli section"],
-    ["C", "A man also known as a hunk or a stud"],
-    ["B", "The cake before the oven"]
+    ["P", "Round legume often used in hummus"],
+    ["P", "Holds 3-8 peas"],
+    ["C", "Found on spotify"],
+    ["I", "Cannot be put in the dishwasher"],
+    ["M", "Tony Stark"],
+    ["C", "Part of a home regarded as a man's refuge"],
+    ["B", "Echolocation"]
   ]
 },
 
@@ -422,16 +422,16 @@
 
 {
   "date": "2026-05-30",
-  "start": "Al",
-  "chain": ["Fine", "Line", "Cook", "Book", "Worm", "Hole", "Punch"],
+  "start": "Fine",
+  "chain": ["Line", "Cook", "Book", "Worm", "Hole", "Punch", "Bowl"],
   "hints": [
-    ["F", "Italian musical direction for the end"],
     ["L", "Goes between love and hate"],
     ["C", "Resturant staff"],
     ["B", "The Joy of Cooking"],
-    ["W", "Someone who loves reading"],
-    ["H", "Einstein-Rosen bridge"],
-    ["P", "3-ring binder"]
+    ["W", "Person who loves reading"],
+    ["H", "Tunnel through space"],
+    ["P", "3-ring binder"],
+    ["B", "Hemispherical fruit punch vessel"]
   ]
 },
 
@@ -537,6 +537,66 @@
     ["C", "Works in a kitchen"],
     ["B", "Collection of recipes"],
     ["S", "Holds books"]
+  ]
+},
+
+{
+  "date": "2026-06-07",
+  "start": "Graham",
+  "chain": ["Cracker", "Jack", "Pot", "Roast", "Beef", "Cake", "Batter"],
+  "hints": [
+    ["C", "Pairs well with a marshmallow and chocolate"],
+    ["J", "Caramel popcorn and peanuts"],
+    ["P", "Lottery"],
+    ["R", "Slow cooked meat"],
+    ["B", "Find this in the deli section"],
+    ["C", "A man also known as a hunk or a stud"],
+    ["B", "The cake before the oven"]
+  ]
+},
+
+{
+  "date": "2026-06-08",
+  "start": "Par",
+  "chain": ["Three", "Pointer", "Finger", "Tip", "Toe", "Nail", "Biter"],
+  "hints": [
+    ["T", "Standard golf hole difficulty"],
+    ["P", "Steph Curry"],
+    ["F", "Digit on your hand"],
+    ["T", "Very end of a finger"],
+    ["T", "Walk quietly"],
+    ["N", "Keratin-based, translucent plate"],
+    ["B", "Tense, suspenseful situation"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Natural",
+  "chain": ["Gas", "Giant", "Panda", "Express", "Train", "Station", "Wagon"],
+  "hints": [
+    ["G", "Fuel found underground"],
+    ["G", "Jupiter, Saturn, Uranus, and Neptune"],
+    ["P", "Black-and-white bear"],
+    ["E", "Known for orange chicken"],
+    ["T", "Passenger rail vehicle"],
+    ["S", "Place where trains stop"],
+    ["W", "Estate car"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Parallel",
+  "chain": ["Parking", "Garage", "Band", "Camp", "Ground", "Hog", "Rider"],
+  "hints": [
+    ["P", "Part of the drivers test"],
+    ["G", "Multiple levels for parking"],
+    ["B", "Music making app"],
+    ["C", "How school marching bands spend their summers"],
+    ["G", "Developed area for campers"],
+    ["H", "Woodchuck"],
+    ["R", "Clash Royale character"]
   ]
 }
 
