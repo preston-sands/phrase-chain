@@ -571,7 +571,7 @@
 },
 
 {
-  "date": "",
+  "date": "2026-06-09",
   "start": "Natural",
   "chain": ["Gas", "Giant", "Panda", "Express", "Train", "Station", "Wagon"],
   "hints": [
@@ -586,7 +586,7 @@
 },
 
 {
-  "date": "",
+  "date": "2026-06-10",
   "start": "Parallel",
   "chain": ["Parking", "Garage", "Band", "Camp", "Ground", "Hog", "Rider"],
   "hints": [
@@ -597,6 +597,321 @@
     ["G", "Developed area for campers"],
     ["H", "Woodchuck"],
     ["R", "Clash Royale character"]
+  ]
+},
+
+{
+  "date": "2026-06-11",
+  "start": "New York",
+  "chain": ["Times", "Square", "Root", "Beer", "Bottle", "Rocket", "Science"],
+  "hints": [
+    ["T", "Newspaper"],
+    ["S", "Famous plaza in NYC"],
+    ["R", "Math operation"],
+    ["B", "Barqs"],
+    ["B", "12oz"],
+    ["R", "Firework"],
+    ["S", "What NASA engineers study"]
+  ]
+},
+
+{
+  "date": "2026-06-12",
+  "start": "Gentle",
+  "chain": ["Giant", "Squid", "Game", "Stop", "Motion", "Sick", "Leave"],
+  "hints": [
+    ["G", "Kind-hearted large person"],
+    ["S", "Massive deep-sea creature"],
+    ["G", "Korean Netflix show"],
+    ["S", "Retail store"],
+    ["M", "Animation technique"],
+    ["S", "Feeling nauseous from movement"],
+    ["L", "Approved time off work"]
+  ]
+},
+
+{
+  "date": "2026-06-13",
+  "start": "Lazy",
+  "chain": ["River", "Bank", "Note", "Book", "Mark", "Down", "Town"],
+  "hints": [
+    ["R", "Bring an inner tube"],
+    ["B", "Edge beside a river"],
+    ["N", "Paper money"],
+    ["B", "School supplies"],
+    ["M", "Use this insted of bending the page corner"],
+    ["D", "Text formatting syntax"],
+    ["T", "Central area of a city"]
+  ]
+},
+
+{
+  "date": "2026-06-14",
+  "start": "Save",
+  "chain": ["Face", "Book", "Fair", "Ground", "Zero", "Sum", "Up"],
+  "hints": [
+    ["F", "Maintain dignity"],
+    ["B", "Mark Zuckerberg"],
+    ["F", "Scholastic event at a school"],
+    ["G", "Area where fairs or events are held"],
+    ["Z", "Site of total destruction"],
+    ["S", "A game where no there is no net gain or loss"],
+    ["U", "Summarize, outline, or recap the main points"]
+  ]
+},
+
+{
+  "date": "2026-06-15",
+  "start": "Martial",
+  "chain": ["Law", "School", "Board", "Walk", "Man", "Hunt", "Down"],
+  "hints": [
+    ["L", "Military control during an emergency"],
+    ["S", "Take the LSAT to get in"],
+    ["B", "Group that oversees a school"],
+    ["W", "Most expensive Monopoly property"],
+    ["M", "Portable cassette player"],
+    ["H", "Search for a missing or wanted person"],
+    ["D", "Catch, kill, or find someone"]
+  ]
+},
+
+{
+  "date": "2026-06-16",
+  "start": "Hash",
+  "chain": ["Brown", "Rice", "Cake", "Pop", "Fly", "Fishing", "Pole"],
+  "hints": [
+    ["B", "Breakfast dish"],
+    ["R", "Whole grain"],
+    ["C", "Snack made from puffed rice"],
+    ["P", "Bite-size cake on a stick"],
+    ["F", "Baseball hit"],
+    ["F", "Water activity with a weighted line"],
+    ["P", "Long rod used for fishing"]
+  ]
+},
+
+{
+  "date": "2026-06-17",
+  "start": "Komodo",
+  "chain": ["Dragon", "Fruit", "Salad", "Bar", "Graph", "Paper", "Plane"],
+  "hints": [
+    ["D", "Large reptile"],
+    ["F", "Also called pitaya"],
+    ["S", "Song by the Wiggles"],
+    ["B", "Veggie buffet"],
+    ["G", "Visual representation of data"],
+    ["P", "Writing surface with a grid"],
+    ["P", "Watch it soar"]
+  ]
+},
+
+{
+  "date": "2026-06-18",
+  "start": "Quick",
+  "chain": ["Draw", "Near", "Death", "Penalty", "Kick", "Drum", "Stick"],
+  "hints": [
+    ["D", "Fast gunfire action in a duel"],
+    ["N", "Very close to something"],
+    ["D", "Barely made it out alive"],
+    ["P", "Capital punishment"],
+    ["K", "Shot taken after a penalty in soccer"],
+    ["D", "Bass percussion instrument"],
+    ["S", "The lower portion of a bird's leg"]
+  ]
+},
+
+{
+  "date": "2026-06-19",
+  "start": "Roses are",
+  "chain": ["Red", "Hot", "Lava", "Lamp", "Post", "Office", "Depot"],
+  "hints": [
+    ["R", "Classic poetry line"],
+    ["H", "Spicy or high in temperature"],
+    ["L", "Molten rock that has not cooled"],
+    ["L", "Decorative light with flowing wax"],
+    ["P", "Sidewalk light"],
+    ["O", "Place where mail is handled"],
+    ["D", "Where you might buy office supplies"]
+  ]
+},
+
+{
+  "date": "2026-06-20",
+  "start": "Double",
+  "chain": ["Bubble", "Bath", "Salt", "Lake", "Day", "Dream", "Catcher"],
+  "hints": [
+    ["B", "Gum brand"],
+    ["B", "Soapy soak in a tub"],
+    ["S", "Pulverized minerals added to a bath for enjoyment"],
+    ["L", "Large body of water in Utah"],
+    ["D", "Short trip to the lake"],
+    ["D", "Pleasant thoughts while awake"],
+    ["C", "Woven object meant to trap bad dreams"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Pottery",
+  "chain": ["Barn", "Yard", "Stick", "Figure", "Eight", "Ball", "Gown"],
+  "hints": [
+    ["B", "Home goods retail store"],
+    ["Y", "Fenced area of ground outside a barn"],
+    ["S", "Like a long ruler"],
+    ["F", "Simple drawing of a person"],
+    ["E", "Ice skating drill"],
+    ["B", "The winning ball in pool"],
+    ["G", "Formal dress"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Pokemon",
+  "chain": ["Go", "Fish", "Tank", "Engine", "Room", "Service", "Desk"],
+  "hints": [
+    ["G", "Augmented reality mobile game"],
+    ["F", "Classic simple card game"],
+    ["T", "Glass container"],
+    ["E", "A steam locomotive"],
+    ["R", "Space within a building or ship that holds the engine"],
+    ["S", "Assistance provided to hotel guests"],
+    ["D", "Counter where help is provided"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Dark",
+  "chain": ["Chocolate", "Chip", "Shot", "Clock", "Work", "Hard", "Knock"],
+  "hints": [
+    ["C", "Rich cocoa-based treat"],
+    ["C", "Classic type of cookie"],
+    ["S", "Minimum air, maximum ground in golf"],
+    ["C", "Time alloted to shoot a basketball"],
+    ["W", "Ssomething happening with perfect regularity"],
+    ["H", "Done with effort or intensity"],
+    ["K", "Song from the musical Annie"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Morse",
+  "chain": ["Code", "Red", "Bull", "Frog", "Leg", "Lock", "Smith"],
+  "hints": [
+    ["C", "Dots and dashes"],
+    ["R", "Emergency alert level"],
+    ["B", "Gives you wings"],
+    ["F", "Large amphibian often found near water"],
+    ["L", "A French delicacy"],
+    ["L", "Move in MMA or other combat sports"],
+    ["S", "Specialist on locks"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Deviled",
+  "chain": ["Egg", "Roll", "Tide", "Pool", "Party", "Pooper", "Scooper"],
+  "hints": [
+    ["E", "Halved eggs filled with seasoned yolk mixture"],
+    ["R", "Fried Asian appetizer"],
+    ["T", "University of Alabama"],
+    ["P", "Small natural pocket of water formed by the ocean"],
+    ["P", "Social gathering at a pool"],
+    ["P", "Someone who ruins the fun"],
+    ["S", "Tool used to pick up pet waste"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Burrito",
+  "chain": ["Bowl", "Cut", "Short", "Stop", "Watch", "Dog", "Days"],
+  "hints": [
+    ["B", "Chipolte menu item"],
+    ["C", "Simple hairstyle"],
+    ["S", "Reduced length or quicker version of something"],
+    ["S", "Baseball position"],
+    ["W", "Device used to measure elapsed time"],
+    ["D", "Informal term for someone who keeps a lookout"],
+    ["D", "Period of extremely hot weather"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Cleft",
+  "chain": ["Lip", "Gloss", "Over", "Weight", "Class", "Clown", "Fish"],
+  "hints": [
+    ["L", "Birth condition affecting the upper mouth"],
+    ["G", "Shiny cosmetic applied to lips"],
+    ["O", "To ignore or skip past something"],
+    ["W", "Heavier than what is considered normal"],
+    ["C", "Category based on weight in sports"],
+    ["C", "Classmate who always gets in trouble"],
+    ["F", "Nemo"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Fourth",
+  "chain": ["Wall", "Street", "Fighter", "Jet", "Lag", "Screw", "Driver"],
+  "hints": [
+    ["W", "Imaginary barrier between actors and audience"],
+    ["S", "Famous financial district in NYC"],
+    ["F", "Classic arcade video game"],
+    ["J", "High-speed military aircraft"],
+    ["L", "Tired feeling after travel across time zones"],
+    ["S", "Spiral fastener used with tools"],
+    ["D", "Phillips or flathead?"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Short &",
+  "chain": ["Sweet", "Tea", "Kettle", "Corn", "Bread", "Knife", "Fight"],
+  "hints": [
+    ["S", "Sabrina Carpenter Album"],
+    ["T", "Sweetened cold Southern drink"],
+    ["K", "Pot used to boil water"],
+    ["C", "Popped grain with sugar and salt"],
+    ["B", "Baked side made of cornmeal"],
+    ["K", "Sharp kitchen utensil for cutting bread"],
+    ["F", "Physical altercation with sharp weapons"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Video",
+  "chain": ["Game", "Show", "Pony", "Tail", "Gate", "Keep", "Sake"],
+  "hints": [
+    ["G", "Electronic entertainment played on a screen"],
+    ["S", "Television program with hosts and contestants"],
+    ["P", "A person who craves attention"],
+    ["T", "Women's hairstyle"],
+    ["G", "Party out of the back of a truck"],
+    ["K", "Restricting access to information"],
+    ["S", "An object kept, treasured, or given to remember"]
+  ]
+},
+
+{
+  "date": "",
+  "start": "Ginger",
+  "chain": ["Snap", "Back", "Bone", "Dry", "Clean", "Energy", "Drink"],
+  "hints": [
+    ["S", "Spiced cookie"],
+    ["B", "Type of baseball cap"],
+    ["B", "Also called the spine"],
+    ["D", "Completely without moisture"],
+    ["C", "Uses chemical solvents instead of water"],
+    ["E", "Power derived from natural resources"],
+    ["D", "Monster or Red Bull"]
   ]
 }
 
