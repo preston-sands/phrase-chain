@@ -362,16 +362,16 @@
 
 {
   "date": "2026-05-26",
-  "start": "Rain",
-  "chain": ["Check", "Point", "Break", "Fast", "Food", "Truck", "Driver"],
+  "start": "Peg",
+  "chain": ["Leg", "Press", "Box", "Jumping", "Jack", "Knife", "Blade"],
   "hints": [
-    ["C", "Plans change"],
-    ["P", "Designated place to stop"],
-    ["B", "Surfing term"],
-    ["F", "Morning routine"],
-    ["F", "McDonalds"],
-    ["T", "Street food"],
-    ["D", "Vehicle operator"]
+    ["L", "Wooden limb"],
+    ["P", "Exercise targeting lower body strength"],
+    ["B", "Seating area for journalists"],
+    ["J", "Exercise involving jumping vertically"],
+    ["J", "Star jump"],
+    ["K", "Folding knife type"],
+    ["B", "Sharp cutting edge of a knife"]
   ]
 },
 
@@ -751,7 +751,7 @@
 },
 
 {
-  "date": "",
+  "date": "2026-06-21",
   "start": "Pottery",
   "chain": ["Barn", "Yard", "Stick", "Figure", "Eight", "Ball", "Gown"],
   "hints": [
@@ -766,7 +766,7 @@
 },
 
 {
-  "date": "",
+  "date": "2026-06-22",
   "start": "Pokemon",
   "chain": ["Go", "Fish", "Tank", "Engine", "Room", "Service", "Desk"],
   "hints": [
@@ -781,7 +781,7 @@
 },
 
 {
-  "date": "",
+  "date": "2026-06-23",
   "start": "Dark",
   "chain": ["Chocolate", "Chip", "Shot", "Clock", "Work", "Hard", "Knock"],
   "hints": [
@@ -796,7 +796,7 @@
 },
 
 {
-  "date": "",
+  "date": "2026-06-24",
   "start": "Morse",
   "chain": ["Code", "Red", "Bull", "Frog", "Leg", "Lock", "Smith"],
   "hints": [
@@ -811,7 +811,7 @@
 },
 
 {
-  "date": "",
+  "date": "2026-06-25",
   "start": "Deviled",
   "chain": ["Egg", "Roll", "Tide", "Pool", "Party", "Pooper", "Scooper"],
   "hints": [
@@ -826,7 +826,7 @@
 },
 
 {
-  "date": "",
+  "date": "2026-06-26",
   "start": "Burrito",
   "chain": ["Bowl", "Cut", "Short", "Stop", "Watch", "Dog", "Days"],
   "hints": [
@@ -841,7 +841,7 @@
 },
 
 {
-  "date": "",
+  "date": "2026-06-27",
   "start": "Cleft",
   "chain": ["Lip", "Gloss", "Over", "Weight", "Class", "Clown", "Fish"],
   "hints": [
@@ -856,22 +856,7 @@
 },
 
 {
-  "date": "",
-  "start": "Fourth",
-  "chain": ["Wall", "Street", "Fighter", "Jet", "Lag", "Screw", "Driver"],
-  "hints": [
-    ["W", "Imaginary barrier between actors and audience"],
-    ["S", "Famous financial district in NYC"],
-    ["F", "Classic arcade video game"],
-    ["J", "High-speed military aircraft"],
-    ["L", "Tired feeling after travel across time zones"],
-    ["S", "Spiral fastener used with tools"],
-    ["D", "Phillips or flathead?"]
-  ]
-},
-
-{
-  "date": "",
+  "date": "2026-06-28",
   "start": "Short &",
   "chain": ["Sweet", "Tea", "Kettle", "Corn", "Bread", "Knife", "Fight"],
   "hints": [
@@ -886,7 +871,7 @@
 },
 
 {
-  "date": "",
+  "date": "2026-06-29",
   "start": "Video",
   "chain": ["Game", "Show", "Pony", "Tail", "Gate", "Keep", "Sake"],
   "hints": [
@@ -901,7 +886,7 @@
 },
 
 {
-  "date": "",
+  "date": "2026-06-30",
   "start": "Ginger",
   "chain": ["Snap", "Back", "Bone", "Dry", "Clean", "Energy", "Drink"],
   "hints": [
@@ -912,6 +897,246 @@
     ["C", "Uses chemical solvents instead of water"],
     ["E", "Power derived from natural resources"],
     ["D", "Monster or Red Bull"]
+  ]
+},
+
+{
+  "date": "2026-07-01",
+  "start": "Fourth",
+  "chain": ["Wall", "Street", "Fighter", "Jet", "Lag", "Screw", "Driver"],
+  "hints": [
+    ["W", "Imaginary barrier between actors and audience"],
+    ["S", "Famous financial district in NYC"],
+    ["F", "Classic arcade video game"],
+    ["J", "High-speed military aircraft"],
+    ["L", "Tired feeling after travel across time zones"],
+    ["S", "Spiral fastener used with tools"],
+    ["D", "Phillips or flathead?"]
+  ]
+},
+
+{
+  "date": "2026-07-02",
+  "start": "Rain",
+  "chain": ["Check", "Point", "Break", "Fast", "Food", "Truck", "Driver"],
+  "hints": [
+    ["C", "Plans change"],
+    ["P", "Designated place to stop"],
+    ["B", "Surfing term"],
+    ["F", "Morning routine"],
+    ["F", "McDonalds"],
+    ["T", "Street food"],
+    ["D", "Vehicle operator"]
+  ]
+},
+
+{
+  "date": "2026-07-03",
+  "start": "Royal",
+  "chain": ["Navy", "Seal", "Ring", "Finger", "Nail", "Gun", "Point"],
+  "hints": [
+    ["N", "Part of the United Kingdom military"],
+    ["S", "Elite U.S. special operations unit"],
+    ["R", "Hand jewelry with an engraved design"],
+    ["F", "Digit on your hand"],
+    ["N", "Hard covering at the end of a finger"],
+    ["G", "Tool that fires projectiles"],
+    ["P", "Being held under threat of being shot"]
+  ]
+},
+
+{
+  "date": "2026-07-04",
+  "start": "Independence",
+  "chain": ["Day", "Camp", "Fire", "Work", "Flow", "Chart", "Topper"],
+  "hints": [
+    ["D", "July 4th"],
+    ["C", "Outdoor summer program for kids"],
+    ["F", "For warmth or cooking"],
+    ["W", "Explosions in the sky"],
+    ["F", "A repeatable sequence of tasks"],
+    ["C", "Diagram showing steps or data"],
+    ["T", "Song, album, artist that reaches number one"]
+  ]
+},
+
+{
+  "date": "2026-07-05",
+  "start": "Circadian",
+  "chain": ["Rhythm", "Guitar", "String", "Cheese", "Cake", "Mix", "Tape"],
+  "hints": [
+    ["R", "Internal sleep-wake cycle"],
+    ["G", "Instrument playing the rhythmic foundation"],
+    ["S", "Thin cord on a guitar"],
+    ["C", "Dairy product that can be pulled apart"],
+    ["C", "Rich, dense dessert"],
+    ["M", "Pre-packaged, dry blend of ingredients"],
+    ["T", "Recording of songs compiled together"]
+  ]
+},
+
+{
+  "date": "2026-07-06",
+  "start": "Crime of",
+  "chain": ["Passion", "Fruit", "Bat", "Man", "Cold", "War", "Zone"],
+  "hints": [
+    ["P", "Crime committed under intense emotion"],
+    ["F", "Purple or yellow rind"],
+    ["B", "Also called flying foxes"],
+    ["M", "Bruce Wayne"],
+    ["C", "Characterized as overreacting to minor illness"],
+    ["W", "1947 to 1991"],
+    ["Z", "Designated area or region for combat"]
+  ]
+},
+
+{
+  "date": "2026-07-07",
+  "start": "Brick",
+  "chain": ["Wall", "Flower", "Bud", "Light", "Year", "Book", "Thief"],
+  "hints": [
+    ["W", "A solid barrier made of bricks"],
+    ["F", "A shy person"],
+    ["B", "Early stage of a blooming plant"],
+    ["L", "A well-known beer brand"],
+    ["Y", "A measure of distance"],
+    ["B", "Sign this at the end of the school year"],
+    ["T", "Famous book set in Nazi Germany narrated by Death"]
+  ]
+},
+
+{
+  "date": "2026-07-08",
+  "start": "Fair",
+  "chain": ["Catch", "Phrase", "Chain", "Mail", "Box", "Car", "Seat"],
+  "hints": [
+    ["C", "Rule in football for a no-run kick return"],
+    ["P", "Well-known repeated saying"],
+    ["C", "What you're playing right now"],
+    ["M", "Flexible armor made of linked metal rings"],
+    ["B", "Container for receiving letters"],
+    ["C", "Four orphaned siblings live here in a book series"],
+    ["S", "For child safety in a vehicle"]
+  ]
+},
+
+{
+  "date": "2026-07-09",
+  "start": "Cliff",
+  "chain": ["Jumping", "Jack", "Rabbit", "Foot", "Loose", "Leaf", "Blower"],
+  "hints": [
+    ["J", "Diving off a high ledge into water"],
+    ["J", "Exercise where you jump while spreading arms and legs"],
+    ["R", "Fast desert animal"],
+    ["F", "Lucky charm"],
+    ["L", "1985 musical with a famous track by the same name"],
+    ["L", "Tea without the tea bag"],
+    ["B", "Tool used to clear leaves"]
+  ]
+},
+
+{
+  "date": "2026-07-10",
+  "start": "Publicity",
+  "chain": ["Stunt", "Double", "Take", "Heart", "Breaking", "Bad", "Omen"],
+  "hints": [
+    ["S", "Planned public act to attract attention"],
+    ["D", "Person who performs risky scenes for actors"],
+    ["T", "Second look in surprise"],
+    ["H", "Gain courage, hope, or confidence"],
+    ["B", "Causing deep emotional pain"],
+    ["B", "Walter White"],
+    ["O", "Sign of something bad to come"]
+  ]
+},
+
+{
+  "date": "2026-07-11",
+  "start": "Well",
+  "chain": ["Met", "Gala", "Apple", "Cider", "Mill", "Stone", "Henge"],
+  "hints": [
+    ["M", "Common fantasy greeting"],
+    ["G", "Fashion's biggest night"],
+    ["A", "Cultivar of a popular fruit"],
+    ["C", "Drink made from fermented apples"],
+    ["M", "Facility where apples are crushed"],
+    ["S", "Heavy rock used for grinding"],
+    ["H", "Prehistoric stone monument in England"]
+  ]
+},
+
+{
+  "date": "2026-07-12",
+  "start": "Jazz",
+  "chain": ["Hands", "Free", "Lunch", "Lady", "Liberty", "Bell", "Bottoms"],
+  "hints": [
+    ["H", "Theatrical hand gesture with fingers spread"],
+    ["F", "Not requiring use of hands"],
+    ["L", "Expression meaning something without cost"],
+    ["L", "Everyone's favorite school staff member"],
+    ["L", "Famous statue in New York Harbor"],
+    ["B", "Historic cracked symbol in Philadelphia"],
+    ["B", "Style of pants that flare out"]
+  ]
+},
+
+{
+  "date": "2026-07-13",
+  "start": "Belgian",
+  "chain": ["Waffle", "Iron", "Fist", "Pump", "Fake", "News", "Flash"],
+  "hints": [
+    ["W", "Breakfast food with deep pockets"],
+    ["I", "Appliance used to cook waffles"],
+    ["F", "Symbol of strength or resistance"],
+    ["P", "Action of raising your fist in celebration"],
+    ["F", "Move in basketball pretending to shoot"],
+    ["N", "Misinformation about current events"],
+    ["F", "Brief, urgent news update"]
+  ]
+},
+
+{
+  "date": "2026-07-14",
+  "start": "Occams",
+  "chain": ["Razor", "Thin", "Ice", "Cold", "Blood", "Pressure", "Cooker"],
+  "hints": [
+    ["R", "Principle favoring the simplest explanation"],
+    ["T", "Very narrow or slight"],
+    ["I", "Common idiom for a risky or precarious situation"],
+    ["C", "Low temperature"],
+    ["B", "Cruel, deliberate human behavior"],
+    ["P", "Hypertension"],
+    ["C", "Sealed pot used for fast cooking"]
+  ]
+},
+
+{
+  "date": "2026-07-30",
+  "start": "Gluten",
+  "chain": ["Free", "Will", "Power", "Point", "Man", "Cold", "Stone"],
+  "hints": [
+    ["F", "Diet avoiding wheat proteins"],
+    ["W", "Ability to make choices independently"],
+    ["P", "Ability to influence or control"],
+    ["P", "Microsoft presentation software"],
+    ["M", "The soldier walking at the very front of a patrol"],
+    ["C", "Gendered overreacting to minor illness"],
+    ["S", "Ice cream shop"]
+  ]
+},
+
+{
+  "date": "2026-07-31",
+  "start": "Mellow",
+  "chain": ["Yellow", "Stone", "Wall", "Street", "Lamp", "Shade", "Garden"],
+  "hints": [
+    ["Y", "Soft drink or relaxed vibe expression"],
+    ["S", "National park"],
+    ["W", "Refusal to communicate or cooperate"],
+    ["S", "Home of the NYC stock exchange"],
+    ["L", "Light fixture found on roads"],
+    ["S", "Cover that dims light"],
+    ["G", "Landscape in an area with little sunlight"]
   ]
 }
 
