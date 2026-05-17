@@ -1111,6 +1111,231 @@
 },
 
 {
+  "date": "2026-07-15",
+  "start": "Mental",
+  "chain": ["Health", "Care", "Bear", "Paw", "Patrol", "Car", "Pool"],
+  "hints": [
+    ["H", "Psychological well-being"],
+    ["C", "Medical field"],
+    ["B", "A group of colorful, huggable, magical chracters"],
+    ["P", "Animal foot"],
+    ["P", "Search-and-rescue puppies show"],
+    ["C", "Vehicle used by police officers"],
+    ["P", "HOV lane"]
+  ]
+},
+
+{
+  "date": "2026-07-16",
+  "start": "Substitute",
+  "chain": ["Teachers", "Pet", "Sitting", "Duck", "Tape", "Deck", "Chair"],
+  "hints": [
+    ["T", "Educator when the primary educator is out"],
+    ["P", "Teacher's favorite student"],
+    ["S", "Watching animals while owners are away"],
+    ["D", "Easy target or defenseless person"],
+    ["T", "Strong adhesive used for repairs"],
+    ["D", "Audio equipment used to play and record tapes"],
+    ["C", "Seat often found on a deck"]
+  ]
+},
+
+{
+  "date": "2026-07-17",
+  "start": "Tennessee",
+  "chain": ["Whiskey", "Sour", "Dough", "Zone", "Out", "House", "Wife"],
+  "hints": [
+    ["W", "Type of American spirit"],
+    ["S", "Cocktail made with citrus"],
+    ["D", "Fermented bread starter"],
+    ["Z", "American Chineese Resturant"],
+    ["O", "To lose focus or become distracted"],
+    ["H", "Bathroom"],
+    ["W", "Married female partner"]
+  ]
+},
+
+{
+  "date": "2026-07-18",
+  "start": "God",
+  "chain": ["Father", "Figure", "Eight", "Mile", "High", "Five", "Stars"],
+  "hints": [
+    ["F", "1972 American gangster film"],
+    ["F", "Person who acts as a mentor or role model"],
+    ["E", "Number formed by two loops"],
+    ["M", "Eminimem movie"],
+    ["H", "Nickname for Denver CO"],
+    ["F", "Gesture made with another person in celebration"],
+    ["S", "Rating indicating top quality"]
+  ]
+},
+
+{
+  "date": "2026-07-19",
+  "start": "Elf On The",
+  "chain": ["Shelf", "Life", "Guard", "Dog", "Tag", "Team", "Mate"],
+  "hints": [
+    ["S", "Holiday toy that watches children"],
+    ["L", "Duration something lasts"],
+    ["G", "Person who watches swimmers for safety"],
+    ["D", "Common pet for protection"],
+    ["T", "Identification put on a dog collar"],
+    ["T", "Group working together in sports"],
+    ["M", "Partner in project or sport"]
+  ]
+},
+
+{
+  "date": "2026-07-20",
+  "start": "Extra",
+  "chain": ["Credit", "Card", "Counting", "Sheep", "Dog", "Pound", "Cake"],
+  "hints": [
+    ["C", "Additional points earned in school"],
+    ["C", "Plastic payment method"],
+    ["C", "Technique to cheat in Vegas"],
+    ["S", "Technique to fall asleep"],
+    ["D", "Domesticated pet to her sheep"],
+    ["P", "Place where stray dogs are kept"],
+    ["C", "Dense buttery dessert"]
+  ]
+},
+
+{
+  "date": "2026-07-21",
+  "start": "Tom",
+  "chain": ["Cruise", "Control", "Freak", "Show", "Boat", "House", "Party"],
+  "hints": [
+    ["C", "Known for action films"],
+    ["C", "System that maintains speed automatically"],
+    ["F", "Person obsessed with control"],
+    ["S", "A public exhibition of biological rarities"],
+    ["B", "Someone who shows off for attention"],
+    ["H", "Residence on the water"],
+    ["P", "Social gathering with guests"]
+  ]
+},
+
+{
+  "date": "2026-07-22",
+  "start": "Bengal",
+  "chain": ["Tiger", "Lily", "Pad", "Thai", "Tea", "Leaf", "Pile"],
+  "hints": [
+    ["T", "Large striped jungle cat"],
+    ["L", "Peter pan character"],
+    ["P", "Floating plant surface in water"],
+    ["T", "Popular Southeast Asian cuisine"],
+    ["T", "Sweet creamy iced beverage"],
+    ["L", "Part of a plant used for tea"],
+    ["P", "Kids jump into these after leaves are raked"]
+  ]
+},
+
+{
+  "date": "2026-07-23",
+  "start": "Pac",
+  "chain": ["Man", "Cave", "Art", "Class", "Ring", "Tone", "Deaf"],
+  "hints": [
+    ["M", "Classic arcade character"],
+    ["C", "Personal space or retreat for a man"],
+    ["A", "Prehistoric drawings on walls"],
+    ["C", "School elective for creatives"],
+    ["R", "Jewelry worn by students commemorating graduation"],
+    ["T", "Sound made by a phone"],
+    ["D", "Unable to perceive musical pitch"]
+  ]
+},
+
+{
+  "date": "2026-07-24",
+  "start": "Six Feet",
+  "chain": ["Deep", "Space", "Mountain", "Top", "Gun", "Control", "Panel"],
+  "hints": [
+    ["D", "Common burial phrase"],
+    ["S", "Vast area beyond Earth's atmosphere"],
+    ["M", "Disney roller coaster"],
+    ["T", "Highest point of a mountain"],
+    ["G", "Maverick and Goose"],
+    ["C", "Regulation of firearms"],
+    ["P", "Interface with buttons or switches"]
+  ]
+},
+
+{
+  "date": "2026-07-25",
+  "start": "Victory",
+  "chain": ["Lap", "Top", "Gear", "Up", "State", "Side", "Line"],
+  "hints": [
+    ["L", "Celebratory circuit after winning a race"],
+    ["T", "Portable personal computer"],
+    ["G", "Famous car show"],
+    ["U", "Prepare or get ready"],
+    ["S", "The northern portion of a US territory"],
+    ["S", "Something that is in the US"],
+    ["L", "Boundary marking the edge of a field or court"]
+  ]
+},
+
+{
+  "date": "2026-07-26",
+  "start": "Walt",
+  "chain": ["Disney", "Land", "Slide", "Rule", "Book", "Report", "Card"],
+  "hints": [
+    ["D", "Famous entertainment company and creator"],
+    ["L", "Home of Its a Small World"],
+    ["S", "Mass movement of rock, debris, or earth down a slope"],
+    ["R", "Hand-operated mechanical calculator"],
+    ["B", "Manual or guide"],
+    ["R", "School project summarizing a novel"],
+    ["C", "Document to communicate grades"]
+  ]
+},
+
+{
+  "date": "2026-07-27",
+  "start": "Salvation",
+  "chain": ["Army", "Strong", "Suit", "Case", "Study", "Hall", "Mark"],
+  "hints": [
+    ["A", "Charitable organization with the red buckets"],
+    ["S", "Army marketing slogan emphasizing resilience"],
+    ["S", "Most highly developed skill or talent"],
+    ["C", "Container used to hold clothes for travel"],
+    ["S", "Detailed examination of a specific subject"],
+    ["H", "Elective class for working on other classwork"],
+    ["M", "Brand known for greeting cards and movies"]
+  ]
+},
+
+{
+  "date": "2026-07-28",
+  "start": "Concert",
+  "chain": ["Grand", "Slam", "Dunk", "Tank", "Top", "Speed", "Dial"],
+  "hints": [
+    ["G", "Large piano"],
+    ["S", "Home run with bases loaded"],
+    ["D", "Forceful basketball score"],
+    ["T", "Carnival game involving a splash"],
+    ["T", "Summertime upper garment"],
+    ["S", "Maximum velocity"],
+    ["D", "Call a bookmarked phone number"]
+  ]
+},
+
+{
+  "date": "2026-07-29",
+  "start": "Tube",
+  "chain": ["Sock", "Puppet", "Master", "Key", "Lime", "Light", "Bulb"],
+  "hints": [
+    ["S", "Long athletic footwear"],
+    ["P", "Simple, classic craft for kids"],
+    ["M", "Person who controls others or pulls strings"],
+    ["K", "Universal tool that opens many locks"],
+    ["L", "Small citrus often used in pies"],
+    ["L", "Being at the center of public attention or fame"],
+    ["B", "Electric device that produces light"]
+  ]
+},
+
+{
   "date": "2026-07-30",
   "start": "Gluten",
   "chain": ["Free", "Will", "Power", "Point", "Man", "Cold", "Stone"],
